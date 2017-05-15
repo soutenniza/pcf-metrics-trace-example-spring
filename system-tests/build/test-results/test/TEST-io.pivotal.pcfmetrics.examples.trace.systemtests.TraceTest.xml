@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.pivotal.pcfmetrics.examples.trace.systemtests.TraceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-05-15T15:12:04" hostname="Vans-MBP.lan" time="32.393">
+  <properties/>
+  <testcase name="testTraces" classname="io.pivotal.pcfmetrics.examples.trace.systemtests.TraceTest" time="32.393"/>
+  <system-out><![CDATA[Payments app started
+Orders app started
+Shopping cart app started
+11:12:35.602 [Time-limited test] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:21038/checkout"
+11:12:35.607 [Time-limited test] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/json, application/*+json, */*]
+11:12:36.462 [Time-limited test] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:21038/checkout" resulted in 200 (null)
+11:12:36.463 [Time-limited test] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "application/json;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@6eed88d9]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

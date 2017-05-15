@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.pivotal.pcfmetrics.examples.trace.shoppingcart.OrdersConnectorTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-05-15T15:12:02" hostname="Vans-MBP.lan" time="0.009">
+  <properties/>
+  <testcase name="pingReturnsFailure_whenSecondTraceFails" classname="io.pivotal.pcfmetrics.examples.trace.shoppingcart.OrdersConnectorTest" time="0.007"/>
+  <testcase name="pingReturnsSuccess_whenSecondTraceSucceeds" classname="io.pivotal.pcfmetrics.examples.trace.shoppingcart.OrdersConnectorTest" time="0.001"/>
+  <system-out><![CDATA[11:12:02.794 [Test worker] INFO io.pivotal.pcfmetrics.examples.trace.shoppingcart.OrdersConnector - sending request to http://orders-host/process-order
+11:12:02.795 [Test worker] INFO io.pivotal.pcfmetrics.examples.trace.shoppingcart.OrdersConnector - finished request to http://orders-host/process-order
+11:12:02.800 [Test worker] INFO io.pivotal.pcfmetrics.examples.trace.shoppingcart.OrdersConnector - sending request to http://orders-host/process-order
+11:12:02.801 [Test worker] INFO io.pivotal.pcfmetrics.examples.trace.shoppingcart.OrdersConnector - finished request to http://orders-host/process-order
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

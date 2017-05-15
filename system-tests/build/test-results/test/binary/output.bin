@@ -1,0 +1,7 @@
+Payments app started
+Orders app started
+Shopping cart app started
+è11:12:35.602 [Time-limited test] DEBUG org.springframework.web.client.RestTemplate - Created GET request for "http://localhost:21038/checkout"
+Æ11:12:35.607 [Time-limited test] DEBUG org.springframework.web.client.RestTemplate - Setting request Accept header to [text/plain, application/json, application/*+json, */*]
+û11:12:36.462 [Time-limited test] DEBUG org.springframework.web.client.RestTemplate - GET request for "http://localhost:21038/checkout" resulted in 200 (null)
+„11:12:36.463 [Time-limited test] DEBUG org.springframework.web.client.RestTemplate - Reading [java.lang.String] as "application/json;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@6eed88d9]

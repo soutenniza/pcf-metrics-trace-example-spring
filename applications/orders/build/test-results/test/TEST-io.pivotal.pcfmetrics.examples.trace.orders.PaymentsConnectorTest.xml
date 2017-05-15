@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.pivotal.pcfmetrics.examples.trace.orders.PaymentsConnectorTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-05-15T15:11:54" hostname="Vans-MBP.lan" time="0.06">
+  <properties/>
+  <testcase name="pingReturnsFailure_whenSecondTraceFails" classname="io.pivotal.pcfmetrics.examples.trace.orders.PaymentsConnectorTest" time="0.058"/>
+  <testcase name="pingReturnsSuccess_whenSecondTraceSucceeds" classname="io.pivotal.pcfmetrics.examples.trace.orders.PaymentsConnectorTest" time="0.001"/>
+  <system-out><![CDATA[11:11:54.275 [Test worker] INFO io.pivotal.pcfmetrics.examples.trace.orders.PaymentsConnector - sending request to http://payments-host/charge-card
+11:11:54.281 [Test worker] INFO io.pivotal.pcfmetrics.examples.trace.orders.PaymentsConnector - finished request to http://payments-host/charge-card
+11:11:54.290 [Test worker] INFO io.pivotal.pcfmetrics.examples.trace.orders.PaymentsConnector - sending request to http://payments-host/charge-card
+11:11:54.290 [Test worker] INFO io.pivotal.pcfmetrics.examples.trace.orders.PaymentsConnector - finished request to http://payments-host/charge-card
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
